@@ -1,13 +1,13 @@
 import "animate.css";
 import { FaInstagram } from "react-icons/fa";
-
+import backgroundGif from "/vilalvazo.gif"; // Ajusta esta ruta según la ubicación real de tu GIF
 export const Villalvazo = () => {
     return (
         <div className="relative flex flex-col items-center justify-center min-h-screen w-full overflow-hidden bg-transparent">
             {/* GIF de fondo */}
             <div className="absolute inset-0 z-0 bg-red-500">
                 <img
-                    src="/villalvazo.gif"
+                    src={backgroundGif}
                     alt="Fernando Villalvazo"
                     className="w-full h-full object-cover"
                 />
@@ -28,7 +28,6 @@ export const Villalvazo = () => {
                 <a
                     href="https://www.instagram.com/f.ernando_v?igsh=MWFqc2RvZGgyYjI5cQ=="
                     target="_blank"
-                    rel="noopener noreferrer"
                     className="transform transition duration-300 ease-in-out hover:-translate-y-1"
                 >
                     <FaInstagram
