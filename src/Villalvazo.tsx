@@ -5,7 +5,7 @@ export const Villalvazo = () => {
         <div className="flex flex-col items-center justify-center min-h-screen">
             <h1
                 id="logo"
-                className="animate__animated animate__fadeIn text-6xl font-thin mb-4 text-center"
+                className="animate__animated animate__fadeIn text-4xl sm:text-5xl md:text-6xl font-thin mb-4 text-center whitespace-nowrap"
             >
                 Fernando Villalvazo
             </h1>
