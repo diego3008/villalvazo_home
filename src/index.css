@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 * {
-    background-color: #fcfcf7;
+    background-color: #f8f7f4;
+}
+
+#logo {
+    font-family: "EB Garamond", serif;
+}
+
+playfair-font {
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
 }
