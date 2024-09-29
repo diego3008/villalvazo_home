@@ -1,6 +1,5 @@
 import "animate.css";
 import { FaInstagram } from "react-icons/fa";
-import miGif from "./assets/vilalvazo.gif"; // Ajusta la ruta según tu estructura de carpetas
 
 export const Villalvazo = () => {
     return (
@@ -8,8 +7,8 @@ export const Villalvazo = () => {
             {/* GIF de fondo */}
             <div className="absolute inset-0 z-0 bg-red-500">
                 <img
-                    src={miGif}
-                    alt="Fondo animado"
+                    src="/villalvazo.gif"
+                    alt="Fernando Villalvazo"
                     className="w-full h-full object-cover"
                 />
             </div>
